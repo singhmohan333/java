@@ -7,22 +7,19 @@ AllArea(double a, double b)
 d1=a;
 d2=b;
 }
-void abstract double area( );
-{
 
-}
-	
+abstact double area();
 }
 
 class Rectangle extends AllArea{
 	Rectangle(double a, double b){
 	super(a,b);
 	}
-	double area(){
-	System.out.println("inside area for rectangle" + (d1 * d2 ));
-	}
+double area(){
+System.out.println("inside area for rectangle" + (d1 * d2 ));
 }
-class Triangle extends AllArea{
+}
+class Triangle extends Figure{
 	Triangle(double a, double b)
 	{
 	super(a,b);

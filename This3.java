@@ -1,21 +1,31 @@
 class This3{
-	public static void main(String arg[])
-	{
-	System.out.println("1234567890");
-	This3 obj = new This3(3);
 
+
+   public static void main(String arg[])
+	{
+	This4 obj = new This4(10,15);
+	This4 obj1 = new This4(150,55);
+	obj.display();
+	obj1.display();
+	}
+}
+class This4{
+	int a;
+	int b; 
+     	This4(int a, int b)
+        	{
+	this.a=a;
+	this.b=b;
 	}
 
-This3(){
-	System.out.print("all my system ");
-} 
-This3(int a){
-
-	this();
-	System.out.println("is running ");
+	void display()
+	{
+	System.out.println(a);
+	System.out.println(b);
+	this.init();	
+	}
+	void init()
+	{
+	System.out.println("hello");
+	}
 }
-
-
-} 
-
-

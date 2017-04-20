@@ -1,27 +1,16 @@
 class Method1{
-	public static void main(String arg[])
+public static void main(String arg[])
 	{
-	int a;
-	Method1 obj = new Method1();
-	obj.sum(22,2);
-
-	obj.system(7,8);
+	int a=12, b=33;
+	Method1 call = new Method1();
+	call.multi(a,b);
+	call.multi(3,2); 
 	}
-
-	void sum(int a, int b)
+	void multi(int x, int y)
 	{
-	int c=a+b;
-	System.out.println(c);
+	float p;
+	p=x*y;
+	System.out.println(p);
 	}
-
-
-	void system(int d, int e)
-	{
-
-		for(int i=1;i<=10;i++)
-		System.out.println(i);
-
-	}
-
 
 }

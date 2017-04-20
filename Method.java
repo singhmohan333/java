@@ -1,11 +1,16 @@
 class Method{
-	public static void main(String arg[])
+public static void main(String arg[])
 	{
-	for(int i=1;i<=12;i++)	
+	int a=11;
+	int b=12;
+	Method obj = new Method();
+	obj.sum(a, b);
+	}
+	void sum(int x, int y)
 	{
-    System.out.println(" My name is monu ji ");
-    System.out.println(" system ");
+	int add;
+	add = x+y;
+	System.out.print(add);
 	}
 
-	}
 }

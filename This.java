@@ -1,33 +1,29 @@
-class This1{
-	
-	This1()
+class This{
+
+
+   public static void main(String arg[])
 	{
-	System.out.println("hello ");
-
-	}
-	
-	This1(int a){
-		this();
-	System.out.println("how");
-
+	This2 obj = new This2(10,15);
+	obj.display();
+		
 	}
 
-    This1(int a,int b)
-	{
-		this(a);
-	System.out.println("are ");
 
-	}
-	
-     This1(int a, int b, int c){
-		this(a,b);
-	System.out.println("you");
-
-	}
 }
 
-class This
-{	public static void main(String arg[]){
-		This1 obj = new This1(11,11,22);
+
+class This2{
+	int a;
+	int b; 
+     	This2(int a, int b)
+        	{
+	a=a;
+	b=b;
+	}
+
+	void display()
+	{
+	System.out.println(a);
+	System.out.println(b);
 	}
 }
