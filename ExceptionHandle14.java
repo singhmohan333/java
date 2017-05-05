@@ -3,7 +3,7 @@
 
 class Abc{
 	void display()throws ArithmeticException{
-
+    
 	System.out.println("all system are uswer");
 	}
 }

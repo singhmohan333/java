@@ -5,7 +5,7 @@ class TestCollection1{
   list.add("mohan");//Adding object in arraylist  
   list.add("singh");  
   list.add("is");
-   list.add("programmer");  
+  list.add("programmer");  
   list.add("king");  
   //Traversing list through Iterator  
   Iterator itr=list.iterator();  
