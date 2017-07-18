@@ -7,8 +7,8 @@ class UserInput{
     System.out.println("Enter the value of n and * are print");
         a= s.nextInt();
    
-     for(int i=1;i<=a;i++){
-       for(int j=1;j<i;j++)
+     for(int i=;i<=a;i++){
+       for(int j=0;j<i;j++)
        {
         System.out.print("*");
         }
