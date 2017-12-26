@@ -19,7 +19,7 @@ class Rectangle extends AllArea{
 	super(a,b);
 	}
 	double area(){
-	System.out.println("inside area for rectangle" + (d1 * d2 ));
+	System.outb .println("inside area for rectangle" + (d1 * d2 ));
 	}
 }
 class Triangle extends AllArea{
