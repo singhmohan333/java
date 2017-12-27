@@ -10,6 +10,7 @@ public static void main(String arg[])
 	{
 	float p;
 	p=x*y;
+	//System.out.println("jj");
 	System.out.println(p);
 	}
 
