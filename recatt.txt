@@ -1,0 +1,40 @@
+
+
+.design{
+  display: inline-block;
+  margin: 10px;
+  border: 1px solid #eee;
+  box-shadow:0 2px 2px #ccc;
+  width: 200px ;
+  padding: 20px;
+}
+
+
+<div class="design"> 
+  <h1>mohan singh </h1>
+  <p>M yage is 22 </p>
+</div>
+  
+  <div class="design"> 
+  <h1>monu</h1>
+  <p>M yage is 22 </p>
+</div
+
+
+
+function Person(props){
+  return(<div className="design"> 
+  <h1>{props.name} </h1>
+  <p>Age is {props.age} </p>
+</div>
+       );
+}
+
+
+var app = (
+  <div>   <Person name="Monu" age="55"/>
+    <Person name="singh" age="50"/>
+    </div>
+);
+
+ReactDOM.render(app,document.querySelector('#app'));
