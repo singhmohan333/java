@@ -3,9 +3,9 @@ class This{
 
    public static void main(String arg[])
 	{
-	This2 obj = new This2(10,15);
+	
+	This2 obj = new This2(19,1);	
 	obj.display();
-		
 	}
 
 
@@ -13,8 +13,8 @@ class This{
 
 
 class This2{
-	int a;
-	int b; 
+	int a=3;
+	int b=2; 
      	This2(int a, int b)
         	{
 	a=a;

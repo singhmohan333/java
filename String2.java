@@ -11,7 +11,7 @@ class String2{
   }
       else{
       System.out.println("the number is not present");
-  }
+    }
 		}
 	}
-	}
+   }

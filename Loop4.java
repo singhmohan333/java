@@ -10,3 +10,5 @@ class Loop4{
 	}
       }
 }
+
+//table of 2
