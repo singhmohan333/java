@@ -2,8 +2,11 @@ package mypack;
 
 	public class A{
 		
-		public void msg(){
+	   protected void msg(){  /*  private void msg(){  */ 
 		System.out.println("hello");
     }
 
 }
+
+
+
